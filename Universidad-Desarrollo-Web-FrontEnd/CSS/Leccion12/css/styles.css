@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgb(69, 156, 156);
+    padding: 15px;
+    color: dodgerblue;
+}
+
+.contenedor:hover {
+    background-color: blue;
+    color: white;
+}
+
+.contenedor.oculto p {
+    display: none;
+}
+
+.contenedor.oculto:hover p {
+    display: block;
+}
+
+.contenedor p::before {
+    content: "Daniel - ";
+}
+
+.contenedor p::after {
+    content: url("../../Leccion10/img/css3.png");
+}
+
+.contenedor p:hover {
+    opacity: .5;
+}
+
+
+

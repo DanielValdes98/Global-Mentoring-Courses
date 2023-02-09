@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.contenedor {
+    display: flex;
+    background-color: violet;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.contenedor p {
+    background-color: darkblue;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5rem;
+}

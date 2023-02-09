@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.rojo {
+    border: solid red;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.azul {
+    /* border: 8px dashed blue; */
+    /* background-color: blue; */
+    border-style: dashed;
+    border-width: thick; /* thin - medium - thick */
+    border-color: blue aqua gold red;
+}
+
+.negro {
+    border: 7px solid hsla(0, 0%, 0%, .5);
+    border-radius: 20px 0px 10px 0;
+    /* background-color: black; */
+}

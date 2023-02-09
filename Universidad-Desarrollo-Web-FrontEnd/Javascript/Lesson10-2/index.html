@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo del DOM con JS</title>
+</head>
+<!-- <body onload="entrar()"> -->
+<body>
+    <h1 id="titulo" onmouseover="rojo()" onmouseout="neutro()"> Manejo DOM con JavaScript </h1>    
+    <!-- <button onclick="mostrar()">Mostrar</button> -->
+    <br/>
+    Nombre : <input type="text" id="nombre" onfocus="cambiar(this)" onchange="convertir(this)" onblur="regresar(this)"/> 
+    <br/>
+    Apellido : <input type="text" id="apellido" onfocus="cambiar(this)" onchange="convertir(this)" onblur="regresar(this)"/> 
+    <!-- <img id="imagen" src="img/html5.png" alt="Logo HTML"/> --> -->
+    <div id="mostrar"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

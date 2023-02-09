@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: aqua;
+    text-decoration: none;
+}
+
+a.hover {
+    color: #8ec;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+
+
+p {
+    color: white;
+    background-color: crimson;
+    padding: 15px;
+    border:  10px solid powderblue;
+    margin-top: 50px;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-bottom: 20px;
+    margin:  40px 10px 20px 10px;
+}

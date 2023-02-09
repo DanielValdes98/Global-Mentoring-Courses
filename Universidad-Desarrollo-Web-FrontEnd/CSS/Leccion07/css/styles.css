@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Sofia', cursive;
+
+}
+
+.caja {
+    padding: 15px;
+    margin: 15px auto;
+    width: 50%;
+    background-color: rgb(169, 117, 218);
+    height: 80px;
+    color: white;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    
+}
+
+.serif-fuente {
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.sans-serif-fuente {
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}

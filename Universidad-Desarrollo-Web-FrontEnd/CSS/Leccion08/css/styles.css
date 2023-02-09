@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+div {
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+
+.icono-rojo {
+    color: crimson;
+    font-size: 3rem;
+    vertical-align: middle;
+}

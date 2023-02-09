@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    color: hsl(120, 100%, 25%);
+}
+
+div {
+    padding: 10px 15px 5px 3px;
+    border: 1px solid darkblue;
+    margin: 20px;
+    background-color: beige;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+

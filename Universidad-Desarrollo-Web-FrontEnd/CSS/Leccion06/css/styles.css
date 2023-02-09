@@ -1,0 +1,26 @@
+h1 {
+    color: dodgerblue;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ced4da;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    text-decoration: overline underline;
+}
+
+.caja {
+    padding: 20px;
+    margin: auto;
+    background-color: dodgerblue;
+    width: 70%;
+    border-radius: 5px;
+    color: white;
+}
+
+.texto {
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 2;
+    text-shadow: 1px 2px #ced4da;
+}
